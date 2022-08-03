@@ -1,0 +1,14 @@
+.mobilForm{
+    z-index: 4;
+    position: absolute;
+    right: 1rem;
+    top: 4.7rem;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.subFilter{
+    display: flex;
+    margin: 10px 0px;
+}

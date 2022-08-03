@@ -1,0 +1,33 @@
+.filter{
+    height: 70.3vh;
+    width: 17vw;
+}
+.search{
+    position: relative;
+}
+.filterIcon{
+    display: none;
+    position: absolute;
+    right: .5rem;
+    top: .3rem;
+    background-color: black;
+    color: white;
+    font-size: 2.4rem;
+    border-radius:.5rem ;
+}
+.main{
+   display: flex;
+   width: 100%;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+@media(max-width:958px){
+    .filter{
+        display: none;
+        background-color: aqua;
+    }
+    .filterIcon{
+display: inline;
+    }
+}

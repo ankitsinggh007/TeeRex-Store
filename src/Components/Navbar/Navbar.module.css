@@ -1,0 +1,66 @@
+.container{
+z-index: 2;
+position: fixed;
+top: 0;
+background-color: #F1F0EF;
+height:65px;
+min-width:375px;
+width: 100vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+    /* color: black; */
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight:600;
+    margin-left:30px ;
+
+}
+.navLink{
+ color: black;
+   text-decoration: none;
+    display: inline;
+    font-size: 1.9rem;
+    margin-right:3rem ;
+    font-weight: 500;
+}
+.navLink:hover{
+    /* color: rgb(120, 120, 231); */
+    fill: rgb(120, 120, 231);
+
+}
+.active{
+    color: rgb(59, 59, 77);
+    display: inline;
+    margin-right:3rem ;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.link{
+    position: relative;
+}
+.cartNo{
+    position: absolute;
+    bottom: 2rem;
+    right: 2.8rem;
+    background-color: black;
+    color: white;
+    font-size: .8rem;
+    text-align: center;
+    padding: 2px 2px;
+    border-radius: 200px;
+}
+@media (max-width:497px){
+    .logo{
+        color: blue;
+    }
+    .active{
+        display: none;
+    }
+    
+
+}

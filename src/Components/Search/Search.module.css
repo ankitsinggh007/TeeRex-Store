@@ -1,0 +1,55 @@
+.input {
+    position: relative;
+    display: flex;
+    width: 98.3vw;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.search {
+    border: 2px solid rgb(74, 71, 71);
+    outline: none;
+    color: black;
+    height: 45px;
+    padding: 5px;
+    width: 30rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1.5rem;
+}
+
+.React {
+    height: 40px;
+    width: 30px;
+    padding: .2rem 1rem;
+    border-radius: .3rem;
+    margin-left: 4px;
+    background-color: #F1F0EF;
+}
+
+.filter {
+    margin-left: 10px;
+    display: none;
+    font-size: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: .3rem;
+}
+
+@media (max-width:955px) {
+    .input {
+        height: 4rem;
+        justify-content: flex-start;
+    }
+
+    .search {
+        width: 15rem;
+    }
+
+    .filter {
+        display: inline;
+    }
+
+}

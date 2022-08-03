@@ -1,0 +1,37 @@
+.cartlist{
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Remove{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    height: 3.5rem;
+    width: 9rem;
+}
+.operation label{
+    font-size: 1.5rem;
+    margin-right :2px;
+    font-weight: 500;
+}
+select{
+    height: 1.7rem;
+    border-radius: .3rem;
+    margin-right: 7rem;
+    font-size: 1.4rem;
+}
+.img{
+    height:15vh;
+}
+.details{
+    padding-top: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+    

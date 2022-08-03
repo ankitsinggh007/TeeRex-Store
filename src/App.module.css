@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+margin-top: 6rem;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+}

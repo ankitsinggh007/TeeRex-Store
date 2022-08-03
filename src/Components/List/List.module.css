@@ -1,0 +1,43 @@
+.list{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+    margin: 10px 0px ;
+    /* border:1px solid black; */
+    height: 25rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around ;
+}
+.button{
+    background-color: black;
+    color: white;
+    width:9rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+}
+.Disable{
+  background-color: grey;
+  color: white;
+  width:9rem;
+  height: 3.5rem;
+  font-size: 1.4rem;
+}
+.subBloack{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+    margin: 3px 0px;
+    border-top: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+.name{
+    position: absolute;
+    bottom: 22rem;
+    left: 14rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
